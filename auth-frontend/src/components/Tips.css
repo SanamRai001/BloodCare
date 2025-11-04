@@ -1,0 +1,245 @@
+/* Add these new styles to your existing CSS */
+
+.tabs-scroll-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.tabs-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding-bottom: 10px;
+  scrollbar-width: none; /* Firefox */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.tabs-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.scroll-button.left {
+  left: -15px;
+}
+
+.scroll-button.right {
+  right: -15px;
+}
+
+.scroll-button:hover {
+  background: #f5f5f5;
+}
+
+/* Hide scroll buttons on mobile */
+@media (max-width: 768px) {
+  .scroll-button {
+    display: none;
+  }
+  
+  .tabs-container {
+    scroll-snap-type: x mandatory;
+    padding: 0 10px;
+  }
+  
+  .tab-button {
+    scroll-snap-align: center;
+    min-width: max-content;
+  }
+}
+
+/* Existing styles... */
+
+/* Base Styles */
+.tips-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #d32f2f;
+  font-size: 2rem;
+}
+
+/* Tabs Styles */
+.tabs-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+}
+
+.tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-button {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.tab-button:hover {
+  background-color: #e0e0e0;
+}
+
+.tab-button.active {
+  background-color: #d32f2f;
+  color: white;
+}
+
+/* Tips Content */
+.tips-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tip-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.tip-item.expanded {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.tip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.tip-item.expanded .tip-header {
+  background-color: #ffebee;
+  border-left: 4px solid #d32f2f;
+}
+
+.tip-header:hover {
+  background-color: #f0f0f0;
+}
+
+.tip-title {
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.tip-toggle {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.tip-body {
+  padding: 20px;
+  color: #555;
+  line-height: 1.6;
+  border-top: 1px solid #eee;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .tabs-container {
+    gap: 5px;
+    padding-bottom: 5px;
+  }
+
+  .tab-button {
+    padding: 10px 15px;
+    font-size: 0.8rem;
+  }
+
+  .tab-button span {
+    display: inline-block;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tip-header {
+    padding: 15px;
+  }
+
+  .tip-title {
+    font-size: 0.9rem;
+  }
+
+  .tip-body {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tips-container {
+    padding: 15px 10px;
+  }
+
+  .tab-button {
+    padding: 8px 12px;
+  }
+
+  .tab-button span {
+    max-width: 80px;
+  }
+
+  .tip-header {
+    padding: 12px 15px;
+  }
+}

@@ -1,0 +1,169 @@
+/* Main Container */
+.blood-form-container {
+  max-width: 580px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+}
+
+/* Title */
+.blood-form-title {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 1.8rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.blood-form-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #e63946;
+}
+
+/* Form Elements */
+.blood-form {
+  margin-top: 1.5rem;
+}
+
+.blood-form-group {
+  margin-bottom: 1.5rem;
+}
+
+.blood-form-label {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: #34495e;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.blood-form-select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #dfe6e9;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #2d3436;
+  background-color: #f8f9fa;
+  transition: all 0.2s ease;
+}
+
+.blood-form-select:focus {
+  border-color: #e63946;
+  box-shadow: 0 0 0 2px rgba(230, 57, 70, 0.1);
+  outline: none;
+}
+
+/* Button */
+.blood-form-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #e63946;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.blood-form-button:hover {
+  background-color: #d62839;
+  transform: translateY(-1px);
+}
+
+.blood-form-button:active {
+  transform: translateY(0);
+}
+
+.blood-form-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Alert */
+.blood-form-alert {
+  border-radius: 6px;
+  border-left: 4px solid #e63946;
+}
+
+/* Results Section */
+.blood-result-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #e63946;
+  animation: fadeIn 0.4s ease;
+}
+
+.blood-result-title {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.blood-result-text {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.blood-result-status {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.compatible {
+  color: #27ae60;
+  background-color: rgba(39, 174, 96, 0.1);
+}
+
+.incompatible {
+  color: #e63946;
+  background-color: rgba(230, 57, 70, 0.1);
+}
+
+.blood-result-note {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .blood-form-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .blood-form-title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,313 @@
+/* Reset */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Theme styles */
+body.light {
+  background-color: #f4f4f4;
+  color: #111;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Main app wrapper */
+.app {
+  min-height: 100vh;
+  padding-top: 70px; /* space for fixed navbar */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar */
+.navbar {
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
+  color: inherit !important;
+  text-decoration: none !important;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+/* Remove underline on hover */
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  text-decoration: none !important;
+}
+
+/* Dropdown on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* Dropdown menu — minimal style */
+.navbar-nav {         /* yaha bata .dropdown-menu hatayera tala rakhe */
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  min-width: max-content;
+}
+
+/* Glassy dropdown */
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(8px) saturate(180%);
+  -webkit-backdrop-filter: blur(8px) saturate(180%);
+  border: none;
+  box-shadow: none;
+}
+
+
+/* Toggle button icons */
+.btn-light svg {
+  stroke: #333;
+}
+
+.btn-dark svg {
+  stroke: #fff;
+}
+
+/* Optional: Logo spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+.banner-wrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75); /* darken for text readability */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+
+/* Highlight hovered dropdown item in red */
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #e94b4b;
+  color: #f71b31; /* Bootstrap danger red */
+   font-weight: 500;
+}
+
+Dropdown box appearance */
+.navbar .dropdown-menu {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease-in-out;
+}
+
+Optional: style the dropdown toggle hover itself */
+.navbar .nav-link.dropdown-toggle:hover {
+  color: #fc122a;
+}
+/* App.css */
+
+/* Card Styling */
+.quick-action-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.quick-action-card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon Container Styling */
+.icon-container {
+  background-color: #ff4c4c;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+/* Icon hover animation */
+.quick-action-card:hover .icon-container {
+  transform: translateY(-5px) scale(1.1); /* Slight movement and scaling on hover */
+}
+
+/* Optional: Add subtle scale effect to card title and subtitle */
+.quick-action-card:hover h5,
+.quick-action-card:hover p {
+  transform: translateY(-3px);
+  color: #ff4c4c; /* Change text color on hover */
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: scroll-left 12s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.footer-glass {
+  position: relative;
+  background: rgba(0, 0, 0, 0.7); /* Darker background for better contrast */
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  z-index: 1;
+  padding: 40px 20px; /* Increased padding for more breathing room */
+  color: #fff; /* Default text color */
+}
+
+.footer-glass::before {
+  content: "";
+  background-image: url("../public/images/map.webp"); /* Public folder reference */
+  background-size: 45%; /* Changed to cover for better fit */
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2; /* Slight opacity for better text visibility */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.footer-glass .container {
+  position: relative;
+  z-index: 2;
+  text-align: center; /* Centering text and content */
+}
+
+.footer-link {
+  color: #ddd; /* Light gray color */
+  text-decoration: none;
+  font-size: 1rem; /* Slightly larger font size */
+  margin: 0 15px; /* Spacing between links */
+  padding: 5px 0;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.footer-link:hover {
+  color: #ff5252; /* Hover color */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.footer-icon {
+  color: #ffffffcc; /* Semi-transparent white */
+  font-size: 1.5rem; /* Larger icon size */
+  margin: 0 10px;
+  transition: transform 0.3s ease, color 0.3s, filter 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2); /* Slightly larger on hover */
+  color: #ff5252; /* Hover color */
+  filter: drop-shadow(0 0 5px #ff5252); /* Glow effect on hover */
+}
+
+.animate-footer {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Extra styling for footer content */
+.footer-text {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Footer container for responsiveness */
+@media (max-width: 768px) {
+  .footer-glass {
+    padding: 30px 10px;
+  }
+
+  .footer-link {
+    margin: 0 10px;
+  }
+
+  .footer-icon {
+    font-size: 1.2rem;
+  }
+}

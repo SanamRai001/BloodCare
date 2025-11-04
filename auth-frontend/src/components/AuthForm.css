@@ -1,0 +1,146 @@
+/* Auth Form Container */
+.auth-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Styles */
+.auth-form.dark-mode {
+  background: #2d3748;
+  color: white;
+}
+
+.auth-form.dark-mode h2 {
+  color: white;
+}
+
+/* Form Elements */
+.auth-form-container {
+  position: relative;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Dark Mode Inputs */
+.dark-input {
+  background: #4a5568;
+  color: white;
+  border-color: #4a5568 !important;
+}
+
+/* Error Message */
+.auth-error {
+  color: #e53e3e;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background: #fff5f5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.dark-mode .auth-error {
+  background: #742a2a;
+}
+
+/* Submit Button */
+.auth-submit {
+  width: 100%;
+  padding: 0.75rem;
+  background: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.auth-submit:hover {
+  background: #3182ce;
+}
+
+.dark-button {
+  background: #2b6cb0 !important;
+}
+
+.dark-button:hover {
+  background: #2c5282 !important;
+}
+
+/* Switch Between Login/Signup */
+.auth-switch {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.auth-switch-btn {
+  background: none;
+  border: none;
+  color: #4299e1;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.dark-link {
+  color: #90cdf4 !important;
+}
+
+/* Close Button (for modal) */
+.auth-close-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #e53e3e;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Loading Spinner */
+.spinner-border {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: text-bottom;
+  border: 0.15em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border 0.75s linear infinite;
+}
+
+@keyframes spinner-border {
+  to { transform: rotate(360deg); }
+}

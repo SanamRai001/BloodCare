@@ -1,0 +1,14 @@
+auth-frontend/node_modules/
+auth-frontend/.cache/
+.cache/
+**/node_modules/
+auth-frontend/node_modules/
+auth-backend/node_modules/
+.cache/
+*.pack
+node_modules/
+**/node_modules/
+auth-frontend/node_modules/
+auth-backend/node_modules/
+.cache/
+*.pack

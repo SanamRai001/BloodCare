@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "category": "Event",
+    "date": "2025-06-25",
+    "image": "/images/camp1.jpg",
+    "title": {
+      "en": "Blood Donation Camp in Kathmandu Draws Record Participation",
+      "np": "काठमाडौंमा रक्तदान कार्यक्रममा रेकर्ड सहभागिता"
+    },
+    "description": {
+      "en": "The annual blood donation camp at Kathmandu Durbar Square saw unprecedented participation with over 200 donors coming forward within just 6 hours. Organized in collaboration with the Nepal Red Cross Society, the event successfully collected 180 units of blood that will be distributed to major hospitals across the valley. Volunteers reported that this year's turnout was 40% higher than previous years, reflecting growing awareness about blood donation in the community.",
+      "np": "काठमाडौं दरबार क्षेत्रमा आयोजना गरिएको वार्षिक रक्तदान कार्यक्रममा ६ घण्टा भित्र २०० भन्दा बढी दाताहरुले सहभागिता जनाए। नेपाल रेड क्रस सोसाइटीको सहयोगमा आयोजना गरिएको यस कार्यक्रमले १८० युनिट रक्त संकलन गर्न सफल भएको छ जुन उपत्यकाका प्रमुख अस्पतालहरुमा वितरण गरिनेछ। स्वयंसेवकहरुले यस वर्षको सहभागिता विगत वर्षहरु भन्दा ४०% ले बढी रहेको बताएका छन् जसले समुदायमा रक्तदानको बारेमा बढ्दो जागरूकतालाई देखाउँछ।"
+    }
+  },
+  {
+    "id": 2,
+    "category": "Urgent",
+    "date": "2025-06-26",
+    "image": "/images/urgent.jpg",
+    "title": {
+      "en": "Critical Shortage: O-Negative Blood Needed for Accident Victims",
+      "np": "आपतकालीन अभाव: दुर्घटनापीडितको लागि O-निगेटिभ रक्त चाहिन्छ"
+    },
+    "description": {
+      "en": "Lalitpur Medical Center has declared an emergency need for O-negative blood following a major road accident involving 15 people. As the universal donor type, O-negative is crucial for emergency situations when there's no time to determine a patient's blood type. The hospital currently has less than 10 units in stock, while the victims require an estimated 30 units for ongoing treatments. Donors are requested to visit the center's blood bank between 8AM-6PM. All donors will receive a health checkup and certificate of appreciation.",
+      "np": "१५ जनासम्म दुर्घटनाग्रस्त भएको ठूलो सडक दुर्घटना पछि ललितपुर मेडिकल सेन्टरले O-निगेटिभ रक्तको आपतकालीन आवश्यकता घोषणा गरेको छ। सार्वभौम दाता प्रकारको रूपमा, O-निगेटिभ रक्त आपतकालीन अवस्थामा अत्यावश्यक हुन्छ जब बिरामीको रक्त प्रकार निर्धारण गर्ने समय हुँदैन। अस्पतालसँग हाल १० युनिट भन्दा कम रक्त भण्डारण छ भने दुर्घटनापीडितहरुलाई चालु उपचारको लागि ३० युनिट रक्त चाहिन्छ। दाताहरुलाई केन्द्रको रक्त बैंकमा ८ बजे देखि ६ बजे सम्म आउन अनुरोध गरिएको छ। सबै दाताहरुलाई स्वास्थ्य जाँच र प्रशंसा प्रमाणपत्र दिइनेछ।"
+    }
+  },
+  {
+    "id": 3,
+    "category": "Thank You",
+    "date": "2025-06-27",
+    "image": "/images/donor.jpg",
+    "title": {
+      "en": "BloodCare Reaches 500 Registered Donors Milestone",
+      "np": "ब्लडकेयरले ५०० दर्ता भएका दाताहरुको उपलब्धि हासिल गर्यो"
+    },
+    "description": {
+      "en": "Today we celebrate a significant achievement as we welcome our 500th registered donor to the BloodCare network. Mr. Rajesh Shrestha, a 28-year-old teacher from Bhaktapur, became our milestone donor during a routine donation at our central facility. Since our inception two years ago, our donor community has contributed over 1,200 units of blood, directly helping more than 900 patients across Nepal. This growing network ensures we can respond faster to emergencies and maintain stable blood supplies at partner hospitals.",
+      "np": "आज हामी ब्लडकेयर नेटवर्कमा हाम्रो ५००औं दर्ता भएको दाता स्वागत गर्दै एक महत्वपूर्ण उपलब्धि मनाउँदै छौं। भक्तपुरका २८ वर्षीय शिक्षक श्री राजेश श्रेष्ठ हाम्रो केन्द्रीय सुविधामा नियमित रक्तदान गर्दै हाम्रो माइलस्टोन दाता बने। हाम्रो स्थापनादेखि २ वर्षमा, हाम्रो दाता समुदायले १,२०० भन्दा बढी युनिट रक्त दान गरिसकेका छन् जसले नेपालभर ९०० भन्दा बढी बिरामीहरुलाई प्रत्यक्ष रूपमा मद्दत गरेको छ। यो बढ्दो नेटवर्कले हामीलाई आपतकालीन अवस्थामा छिटो प्रतिक्रिया दिन र साझेदार अस्पतालहरुमा स्थिर रक्त आपूर्ति कायम राख्न सक्षम बनाउँछ।"
+    }
+  },
+  {
+    "id": 4,
+    "category": "Event",
+    "date": "2025-06-20",
+    "image": "/images/event2.jpg",
+    "title": {
+      "en": "Pokhara Youth Rally for Blood Donation Awareness",
+      "np": "पोखरामा युवाहरुले रक्तदान जनचेतनाको लागि र्याली गरे"
+    },
+    "description": {
+      "en": "Over 300 college students participated in an energetic awareness march through Lakeside, Pokhara, promoting voluntary blood donation. The event, organized by BloodCare in partnership with local youth clubs, included street plays demonstrating how single donations can save up to three lives. Participants also visited local businesses to distribute informational pamphlets and recruit new donors. The day concluded with 87 new donor registrations and commitments from three schools to host blood drives next academic year.",
+      "np": "३०० भन्दा बढी कलेज विद्यार्थीहरुले पोखरा लेकसाइडमा स्वेच्छिक रक्तदान प्रवर्द्धन गर्दै उत्साहपूर्ण जनचेतना र्यालीमा सहभागिता जनाए। ब्लडकेयरले स्थानीय युवा क्लबहरुको साझेदारीमा आयोजना गरेको यस कार्यक्रममा एकल रक्तदानले कसरी तीन जीवन बचाउन सक्छ भन्ने देखाउने सडक नाटक समावेश थियो। सहभागीहरुले स्थानीय व्यवसायहरुमा जानकारी पत्रिका वितरण गर्ने र नयाँ दाता भर्ती गर्ने कार्य पनि गरे। दिनको समापन ८७ नयाँ दाता दर्ता र आउने शैक्षिक वर्षमा रक्तदान कार्यक्रम आयोजना गर्ने तीन विद्यालयहरुको प्रतिबद्धतासाथ भयो।"
+    }
+  },
+  {
+    "id": 5,
+    "category": "Thank You",
+    "date": "2025-06-15",
+    "image": "/images/thankyou.jpg",
+    "title": {
+      "en": "Honoring Our June Blood Heroes: 214 Lives Impacted",
+      "np": "हाम्रा जुन महिनाका रक्त नायकहरुलाई सम्मान: २१४ जीवनमा प्रभाव"
+    },
+    "description": {
+      "en": "We extend our deepest gratitude to the 178 donors who participated in our June blood drive, contributing 214 units that directly supported patients at 12 different hospitals. Special recognition goes to repeat donors Anjali K.C. (9 donations) and Rameshwor Pandey (7 donations) for their exceptional commitment. The collected blood has already been used in 43 emergency surgeries, 89 regular treatments, and helped 82 chronic illness patients. Each donor received a personalized thank you certificate and will be invited to our annual appreciation ceremony in December.",
+      "np": "हामी जुन महिनाको रक्तदान कार्यक्रममा सहभागी भएका १७८ दाताहरुलाई हार्दिक धन्यवाद ज्ञापन गर्दछौं जसले १२ फरक अस्पतालका बिरामीहरुलाई प्रत्यक्ष रूपमा सहयोग गर्न २१४ युनिट रक्त दान गरे। विशेष सम्मान बारम्बार दाता अञ्जली के.सी. (९ पटक दान) र रामेश्वर पाण्डे (७ पटक दान) लाई उनीहरुको असाधारण प्रतिबद्धताको लागि दिइएको छ। संकलन गरिएको रक्त ४३ आपतकालीन शल्यक्रिया, ८९ नियमित उपचार र ८२ दीर्घकालीन रोगीहरुलाई मद्दत गर्न पहिले नै प्रयोग गरिएको छ। प्रत्येक दातालाई व्यक्तिगत धन्यवाद प्रमाणपत्र दिइएको छ र डिसेम्बरमा हुने हाम्रो वार्षिक प्रशंसा समारोहमा आमन्त्रित गरिनेछ।"
+    }
+  },
+  {
+    "id": 6,
+    "category": "Urgent",
+    "date": "2025-06-28",
+    "image": "/images/emergency.jpg",
+    "title": {
+      "en": "Emergency Alert: Bhaktapur Hospital Faces Critical B+ Shortage",
+      "np": "आपतकालीन चेतावनी: भक्तपुर अस्पतालमा B+ रक्तको गम्भीर अभाव"
+    },
+    "description": {
+      "en": "Bhaktapur Hospital's blood bank has issued an urgent appeal for B-positive donors as supplies drop to dangerous levels ahead of scheduled cardiac surgeries. Currently holding just 5 units against a required minimum of 25, the shortage threatens to postpone life-saving operations for 8 patients. The hospital serves a population of over 300,000 and is the only facility in the district equipped for complex procedures. Donors with B+ blood type are urged to visit immediately - extended hours (7AM-8PM) have been implemented, and all donors will receive priority health screenings and refreshments.",
+      "np": "निर्धारित हृदय शल्यक्रिया अगाडि भक्तपुर अस्पतालको रक्त बैंकले B-पोजिटिभ दाताहरुको लागि आपतकालीन अपिल जारी गरेको छ। आवश्यक न्यूनतम २५ युनिटको विपरितमा हाल ५ युनिट मात्र भएकोले ८ जना बिरामीहरुको जीवनरक्षक शल्यक्रिया स्थगित हुने खतरा छ। अस्पतालले ३००,००० भन्दा बढी जनतालाई सेवा प्रदान गर्छ र जिल्लाको जटिल प्रक्रियाहरुको लागि मात्र उपलब्ध सुविधा हो। B+ रक्त प्रकार भएका दाताहरुलाई तुरुन्त आउन आग्रह गरिएको छ - विस्तारित समय (७ बजे देखि ८ बजे सम्म) लागू गरिएको छ र सबै दाताहरुलाई प्राथमिकता स्वास्थ्य जाँच र जिउँदो खाना दिइनेछ।"
+    }
+  },
+  {
+    "id": 7,
+    "category": "Event",
+    "date": "2025-06-10",
+    "image": "/images/camp2.jpg",
+    "title": {
+      "en": "Sunrise School Students Champion Safe Blood Donation",
+      "np": "सनराइज स्कुलका विद्यार्थीहरुले सुरक्षित रक्तदानलाई अग्रसर बनाए"
+    },
+    "description": {
+      "en": "BloodCare's educational team conducted an interactive workshop for 150 students at Sunrise School, covering blood science, donation safety, and dispelling common myths. The session, tailored for grades 9-12, featured real donor testimonials and a virtual tour of a blood bank. Remarkably, 43 eligible senior students immediately registered as donors, while the entire student body pledged to organize awareness campaigns in their communities. The school has also committed to hosting two blood drives annually, starting this November during their health awareness week.",
+      "np": "ब्लडकेयरको शैक्षिक टोलीले सनराइज स्कुलका १५० विद्यार्थीहरुको लागि रक्त विज्ञान, दान सुरक्षा र सामान्य भ्रमहरु हटाउने विषयमा अन्तरक्रियात्मक कार्यशाला सञ्चालन गर्यो। कक्षा ९-१२ का लागि अनुकूलित यस सत्रमा वास्तविक दाताका अनुभवहरु र रक्त बैंकको आभासी भ्रमण समावेश थियो। उल्लेख्य कुरा, ४३ योग्य वरिष्ठ विद्यार्थीहरुले तुरुन्त दाताको रूपमा दर्ता गरे भने सम्पूर्ण विद्यार्थी निकायले आफ्ना समुदायहरुमा जनचेतना अभियान आयोजना गर्ने प्रतिज्ञा गरे। विद्यालयले यस नोभेम्बरदेखि आफ्नो स्वास्थ्य जागरूकता साता समयमा वार्षिक २ पटक रक्तदान कार्यक्रम आयोजना गर्ने प्रतिबद्धता पनि जनाएको छ।"
+    }
+  },
+  {
+    "id": 8,
+    "category": "Thank You",
+    "date": "2025-06-12",
+    "image": "/images/donor-smile.jpg",
+    "title": {
+      "en": "Donor Stories: The Smiles Behind Every Blood Bag",
+      "np": "दाता कथाहरु: प्रत्येक रक्त थैली पछिका मुस्कानहरु"
+    },
+    "description": {
+      "en": "Today we share inspiring stories from our regular donors, revealing the human connections behind each donation. Meet 45-year-old Sita Tamang who has donated 18 times since losing her son in an accident - \"Giving blood helps me feel I'm still saving lives.\" College student Rohan donated platelets during exams to help a cancer patient, while retired Gurkha soldier Amar Singh has given blood in three countries. These stories highlight how diverse donors unite through this simple yet profound act. Our Donor Wall at headquarters now features 50 such stories - visit to read more or share your own.",
+      "np": "आज हामी हाम्रा नियमित दाताहरुका प्रेरणादायी कथाहरु साझा गर्दै छौं, प्रत्येक दान पछिका मानवीय सम्बन्धहरु उजागर गर्दै। ४५ वर्षीया सीता तामांगलाई भेट्नुहोस् जसले आफ्नो छोरालाई दुर्घटनामा गुमाएपछि १८ पटक रक्त दान गरिसकेकी छिन् - \"रक्त दान गर्दा म अझै पनि जीवन बचाउँदै छु भन्ने महसुस गर्छु।\" कलेज विद्यार्थी रोहनले एक क्यान्सर बिरामीलाई मद्दत गर्न परीक्षा समयमा प्लेटलेट दान गरे, भने अवकाश प्राप्त गोर्खा सैनिक अमर सिंहले तीन देशहरुमा रक्त दान गरिसकेका छन्। यी कथाहरुले कसरी विविध दाताहरु यो साधारण तर गहिरो कार्य मार्फत एकजुट हुन्छन् भन्ने देखाउँछ। हाम्रो मुख्यालयमा रहेको दाता पर्खालमा अहिले ५० यस्ता कथाहरु छन् - थप पढ्न वा आफ्नो कथा साझा गर्न भ्रमण गर्नुहोस्।"
+    }
+  }
+]
